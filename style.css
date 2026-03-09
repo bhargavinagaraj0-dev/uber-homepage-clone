@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+}
+
+/* Lists */
+.nav-left,
+.nav-right {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-left li,
+.nav-right li {
+    margin-right: 18px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Logo */
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+/* Sign up button style */
+.signup {
+    background-color: white;
+    color: black;
+    padding: 6px 14px;
+    border-radius: 20px;
+}
+
+/* Main Section */
+.main-section {
+    height: 60vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-section h1 {
+    font-size: 64px;
+    font-weight: bold;
+}
+
+/* Bottom Section */
+.bottom-section {
+    display: flex;
+    background-color: #111;
+    color: white;
+}
+
+.option {
+    flex: 1;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    border-right: 1px solid #444;
+}
+
+.option:last-child {
+    border-right: none;
+}
+
+.arrow {
+    font-size: 28px;
+}
